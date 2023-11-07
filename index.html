@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ln="eng">
+<head>
+  <title>San Tosh Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <label class="logo">San Tosh Blog</label>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+        <label id="icon">
+            <img class="btn" src="icon.png">
+        </label>
+    </nav>
+    </header>
+    <main>
+  <div class="s">
+      <div id="container">
+        Make
+        <div id="flip">
+            <div>
+                <div>Work</div>
+            </div>
+            <div>
+                <div>Lifestyle</div>
+            </div>
+            <div>
+                <div>Everything</div>
+            </div>
+        </div>
+        AweSome!
+    </div>
+  </div>
+  </main>
+  <script>
+const icon = document.getElementById('icon');
+const nav =document.querySelector('ul');
+icon.addEventListener('click', show);
+
+function show(){
+    nav.classList.toggle('show');
+};
+
+  </script>
+</body>
+</html>
