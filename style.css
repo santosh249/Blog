@@ -76,6 +76,11 @@ nav #icon{
         border-top-right-radius: 60vh;
         border-bottom-right-radius: 60vh;
     }
+    #ul{
+        position: absolute;
+        margin-top: 2.2rem;
+        margin-left: 1.5rem;
+    }
     nav li{
         font-weight: bolder;
         display: block;
